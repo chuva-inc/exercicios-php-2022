@@ -14,6 +14,7 @@ class Main {
    */
   public static function run(): void {
     $dom = new DOMDocument('1.0', 'utf-8');
+    libxml_use_internal_errors(true);
     $dom->loadHTMLFile(__DIR__ . '/../../webscrapping/origin.html');
     (new Scrapper())->scrap($dom);
   }
