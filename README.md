@@ -18,3 +18,4 @@ Para entregar os exercícios:
 2. Programe o código de cada exercício.
 3. Commite suas mudanças e suba para o repositório.
 4. Deixe o repositório público e nos envie o link.
+# Exercicio
